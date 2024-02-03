@@ -40,16 +40,6 @@ To use these SQL queries:
 2. Connect to your database management system.
 3. Run each query in your preferred SQL environment.
 
-### Contributors
 
-- [Your Name or Username] - [Link to Profile/Github]
-
-### License
-
-This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-- [Acknowledgment if any]
 
 Feel free to modify or expand upon these queries to suit your specific needs. Contributions and feedback are welcome!

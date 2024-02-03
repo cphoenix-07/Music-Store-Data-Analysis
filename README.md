@@ -3,6 +3,8 @@
 This repository contains a series of SQL queries designed to analyze a fictional music store's database. Each query addresses specific questions or tasks related to customer behavior, sales, and music genres.
 
 **Schema Diagram**
+
+
 <img width="594" alt="schema_diagram" src="https://github.com/cphoenix-07/Music-Store-Sales-Analysis/assets/71826054/c3927307-aa92-4e74-9a89-d462b120cab4">
 
 ### Queries Overview

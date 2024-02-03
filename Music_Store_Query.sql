@@ -32,7 +32,7 @@ ORDER BY InvoiceTotal DESC
 LIMIT 1;
 
 
-/* Q5:  The best customer, the person who has spent the most money.*/
+/* The best customer, the person who has spent the most money.*/
 
 SELECT customer.customer_id, first_name, last_name, SUM(total) AS total_spending
 FROM customer
@@ -70,7 +70,7 @@ WHERE genre.name LIKE 'Rock'
 ORDER BY email;
 
 
-/* Q2: The artists who have written the most rock music in our dataset. */
+/* The artists who have written the most rock music in our dataset. */
 
 SELECT artist.artist_id, artist.name,COUNT(artist.artist_id) AS number_of_songs
 FROM track
@@ -157,7 +157,7 @@ JOIN max_genre_per_country ON sales_per_country.country = max_genre_per_country.
 WHERE sales_per_country.purchases_per_genre = max_genre_per_country.max_genre_number;
 
 
-/* Q3: The customer that has spent the most on music for each country. */
+/* The customer that has spent the most on music for each country. */
 
 /* Method 1: using CTE */
 
@@ -192,8 +192,3 @@ JOIN country_max_spending ms
 ON cc.billing_country = ms.billing_country
 WHERE cc.total_spending = ms.max_spending
 ORDER BY 1;
-
-
-/* source: www.youtube.com/@RishabhMishraOfficial */
-
-/* Thank You :) */
